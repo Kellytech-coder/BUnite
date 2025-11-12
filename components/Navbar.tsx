@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link href="#" className="hover:text-gray-300 transition">
             Home
           </Link>
-          <Link href="#" className="hover:text-gray-300 transition">
+          <Link href="/about" className="hover:text-gray-300 transition">
             About Us
           </Link>
           <Link href="#" className="hover:text-gray-300 transition">
@@ -49,7 +49,7 @@ export default function Navbar() {
                 <Link href="#" className="block px-4 py-2 hover:bg-gray-100 transition">
                   How It Works
                 </Link>
-                <Link href="#" className="block px-4 py-2 hover:bg-gray-100 transition">
+                <Link href="Pricing" className="block px-4 py-2 hover:bg-gray-100 transition">
                   Pricing
                 </Link>
                 <Link href="#" className="block px-4 py-2 hover:bg-gray-100 transition">
@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-6">
           {/* Login */}
           <Link
-            href="#"
+            href="login-flow"
             className="flex items-center space-x-1 text-sm font-medium hover:text-gray-300 transition"
           >
             <span>Login</span>
@@ -79,7 +79,7 @@ export default function Navbar() {
 
           {/* Sign Up */}
           <Link
-            href="#"
+            href="signup"
             className="group flex items-center h-10 pr-2 pl-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-md transition duration-300 transform hover:scale-[1.03]"
           >
             <span className="text-white text-sm font-semibold mr-3">Sign Up</span>
@@ -104,9 +104,10 @@ export default function Navbar() {
           <Link href="#" className="block px-4 py-2 hover:bg-gray-900 transition">
             Home
           </Link>
-          <Link href="#" className="block px-4 py-2 hover:bg-gray-900 transition">
-            About Us
+          <Link href="/about" className="block px-4 py-2 hover:bg-gray-900 transition">
+             About Us
           </Link>
+
           <Link href="#" className="block px-4 py-2 hover:bg-gray-900 transition">
             Features
           </Link>
