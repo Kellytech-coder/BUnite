@@ -1,4 +1,5 @@
-// components/PremiumFeatures.js
+'use client';
+import Image from 'next/image';
 
 export default function PremiumFeatures() {
   return (
@@ -17,11 +18,14 @@ export default function PremiumFeatures() {
       <div className="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
         {/* Feature 1 */}
         <div className="flex flex-col items-center text-center">
-          <img
-            src="/images/placeholderImage.png"
-            alt="Highlighted Placement"
-            className="w-full h-48 sm:h-56 object-cover rounded-xl shadow-md"
-          />
+          <div className="w-full h-48 sm:h-56 relative">
+            <Image
+              src="/images/placeholderImage.png"
+              alt="Highlighted Placement"
+              fill
+              className="object-cover rounded-xl shadow-md"
+            />
+          </div>
           <p className="mt-3 text-black font-medium text-sm sm:text-base max-w-xs">
             Stand Out with Highlighted Placement and Boost Your Visibility
           </p>
@@ -32,11 +36,14 @@ export default function PremiumFeatures() {
 
         {/* Feature 2 */}
         <div className="flex flex-col items-center text-center">
-          <img
-            src="/images/placeholderimage2.png"
-            alt="Analytics"
-            className="w-full h-48 sm:h-56 object-cover rounded-xl shadow-md"
-          />
+          <div className="w-full h-48 sm:h-56 relative">
+            <Image
+              src="/images/placeholderimage2.png"
+              alt="Analytics"
+              fill
+              className="object-cover rounded-xl shadow-md"
+            />
+          </div>
           <p className="mt-3 text-black font-medium text-sm sm:text-base max-w-xs">
             Leverage Analytics to Track Your Performance and Optimize Strategies
           </p>
@@ -47,11 +54,14 @@ export default function PremiumFeatures() {
 
         {/* Feature 3 */}
         <div className="flex flex-col items-center text-center">
-          <img
-            src="/images/placeholderimage3.png"
-            alt="Credibility Badges"
-            className="w-full h-48 sm:h-56 object-cover rounded-xl shadow-md"
-          />
+          <div className="w-full h-48 sm:h-56 relative">
+            <Image
+              src="/images/placeholderimage3.png"
+              alt="Credibility Badges"
+              fill
+              className="object-cover rounded-xl shadow-md"
+            />
+          </div>
           <p className="mt-3 text-black font-medium text-sm sm:text-base max-w-xs">
             Gain Credibility with Badges That Showcase Your Business Excellence
           </p>
