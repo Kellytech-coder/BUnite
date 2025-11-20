@@ -1,7 +1,8 @@
+// app/login/page.tsx
 export default function LoginPage() {
   return (
-    <main className="min-h-screen p-8">
-      <h1 className="text-4xl font-bold">Login</h1>
-    </main>
-  )
+    <div>
+      <h1>Login Page</h1>
+    </div>
+  );
 }
